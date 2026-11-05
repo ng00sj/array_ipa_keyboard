@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">ArrayKeyboard</string>
-    <string name="key_01">1</string>
+    <string name="app_name" translatable="false">ArrayKeyboard</string>
+    <string name="key_01" translatable="false">1</string>
     <string name="key_02">2</string>
     <string name="key_03">3</string>
     <string name="key_04">4</string>
@@ -85,12 +85,14 @@
     <string name="val_38">,</string>
     <string name="val_39">.</string>
     <string name="val_30">/</string>
-    <string name="arrayTxtFileNameBig">array30-big.txt</string>
-    <string name="noWord">□</string>
-    <string name="arrayTxtFileNameSymbol">ar30symbol.txt</string>
+    <string name="arrayTxtFileNameBig" translatable="false">array30-big.txt</string>
+    <string name="noWord" translatable="false">□</string>
+    <string name="arrayTxtFileNameSymbol" translatable="false">ar30symbol.txt</string>
 
-    <string name="blankIPA">◌</string>
-    <string name="lang_0">Latin</string>
-    <string name="lang_1">行列</string>
-    <string name="lang_2">!@#</string>
+    <string name="blankIPA" translatable="false">◌</string>
+    <string name="lang_0" translatable="false">Latin</string>
+    <string name="lang_1" translatable="false">行列</string>
+    <string name="lang_2" translatable="false">!@#</string>
+    <string name="subtype_array" translatable="false">行列輸入法</string>
+    <string name="subtype_latin">Latin 鍵盤</string>
 </resources>
