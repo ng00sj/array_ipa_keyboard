@@ -174,9 +174,13 @@ class MyInputMethodService : InputMethodService() {
         "8" to listOf<String>("ː","ˑ","˞","˴","˵","˶","˸"),
         "9" to listOf<String>("˩","˨","˧","˦","˥"),
         "0" to listOf<String>("¹","²","³","⁴","⁵","⁶","⁷","⁸","⁹","⁰"),
-        "!" to listOf<String>("ͣ","ͤ","ͥ","ͦ","ͧ","ͨ","ͩ","ͪ","ͫ","ͬ","ͭ","ͮ","ͯ","̛","͂","̓","̈́","͗","͘","͛"),
-        "@" to listOf<String>("ͅ","͓","͔","͕","͖")
+        "!" to listOf<String>("̛","͂","̓","̈́","͗","͘","͛"),
+        "@" to listOf<String>("ͅ","͓","͔","͕","͖"),
+        "#" to listOf<String>("ͣ","ͤ","ͥ","ͦ","ͧ","ͨ","ͩ","ͪ","ͫ","ͬ","ͭ","ͮ","ͯ")
     )
+
+    private val numSup = listOf<String>("⁰", "¹", "²", "³", "⁴", "⁵", "⁶", "⁷", "⁸", "⁹")
+    private val numSub = listOf<String>("₀", "₁", "₂", "₃", "₄", "₅", "₆", "₇", "₈", "₉")
 
     private var nowLang = 1 //0: English, 1: Array, 2: Symbol
 
@@ -314,7 +318,7 @@ class MyInputMethodService : InputMethodService() {
     @SuppressLint("SetTextI18n")
     private fun setBtnDonePage() {
         val btnDone = viewKeyboard!!.findViewById<Button>(R.id.btn_done)
-        btnDone.text = (candidatesPage+1).toString()+"/"+((candidateWords.size+9)/10).toString()
+        btnDone.text = numSup[candidatesPage+1]+"/"+numSub[(candidateWords.size+9)/10]
     }
 
 
@@ -509,6 +513,9 @@ class MyInputMethodService : InputMethodService() {
                             resetIPA()
                         }
                         return@setOnClickListener
+                    }
+                    if (isCap) {
+                        resetInLatin()
                     }
                     onDeleteInput()
                 }
