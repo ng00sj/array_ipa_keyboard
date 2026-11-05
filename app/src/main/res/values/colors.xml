@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gra_0">#FFBFBFBF</color>
+    <color name="gra_1">#FF8F8F8F</color>
+    <color name="red_0">#FFFF9F9F</color>
+    <color name="red_1">#FFFF3F3F</color>
+    <color name="ora_0">#FFFFBF7F</color>
+    <color name="ora_1">#FFFF7F1F</color>
+    <color name="yel_0">#FFDFDF7F</color>
+    <color name="yel_1">#FFBFBF1F</color>
+    <color name="gre_0">#FF9FFF9F</color>
+    <color name="gre_1">#FF3FFF3F</color>
+    <color name="sky_0">#FF7FDFDF</color>
+    <color name="sky_1">#FF1FBFBF</color>
+    <color name="blu_0">#FF7FBFFF</color>
+    <color name="blu_1">#FF2F7FFF</color>
+    <color name="blw_0">#FF9F9FFF</color>
+    <color name="blw_1">#FF3F3FFF</color>
+    <color name="pur_0">#FFDF7FDF</color>
+    <color name="pur_1">#FFBF1FBF</color>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_200_light">#FFDDA0FF</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_500_light">#FF9E4EDD</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

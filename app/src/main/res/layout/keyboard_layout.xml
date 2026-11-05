@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="10"
+    android:padding="8dp"
+    android:background="@color/black">
+
+    <Button android:id="@+id/btn_01" style="@style/btn_00_a" android:text="@string/key_01" />
+    <Button android:id="@+id/btn_02" style="@style/btn_00_a" android:text="@string/key_02" />
+    <Button android:id="@+id/btn_03" style="@style/btn_00_a" android:text="@string/key_03" />
+    <Button android:id="@+id/btn_04" style="@style/btn_00_a" android:text="@string/key_04" />
+    <Button android:id="@+id/btn_05" style="@style/btn_00_a" android:text="@string/key_05" />
+    <Button android:id="@+id/btn_06" style="@style/btn_00_a" android:text="@string/key_06" />
+    <Button android:id="@+id/btn_07" style="@style/btn_00_a" android:text="@string/key_07" />
+    <Button android:id="@+id/btn_08" style="@style/btn_00_a" android:text="@string/key_08" />
+    <Button android:id="@+id/btn_09" style="@style/btn_00_a" android:text="@string/key_09" />
+    <Button android:id="@+id/btn_00" style="@style/btn_00_a" android:text="@string/key_00" />
+
+    <Button android:id="@+id/btn_11" style="@style/btn_00" android:text="@string/key_11" />
+    <Button android:id="@+id/btn_12" style="@style/btn_00" android:text="@string/key_12" />
+    <Button android:id="@+id/btn_13" style="@style/btn_00" android:text="@string/key_13" />
+    <Button android:id="@+id/btn_14" style="@style/btn_00" android:text="@string/key_14" />
+    <Button android:id="@+id/btn_15" style="@style/btn_00" android:text="@string/key_15" />
+    <Button android:id="@+id/btn_16" style="@style/btn_00" android:text="@string/key_16" />
+    <Button android:id="@+id/btn_17" style="@style/btn_00" android:text="@string/key_17" />
+    <Button android:id="@+id/btn_18" style="@style/btn_00" android:text="@string/key_18" />
+    <Button android:id="@+id/btn_19" style="@style/btn_00" android:text="@string/key_19" />
+    <Button android:id="@+id/btn_10" style="@style/btn_00" android:text="@string/key_10" />
+
+    <Button android:id="@+id/btn_21" style="@style/btn_00" android:text="@string/key_21" />
+    <Button android:id="@+id/btn_22" style="@style/btn_00" android:text="@string/key_22" />
+    <Button android:id="@+id/btn_23" style="@style/btn_00" android:text="@string/key_23" />
+    <Button android:id="@+id/btn_24" style="@style/btn_00" android:text="@string/key_24" />
+    <Button android:id="@+id/btn_25" style="@style/btn_00" android:text="@string/key_25" />
+    <Button android:id="@+id/btn_26" style="@style/btn_00" android:text="@string/key_26" />
+    <Button android:id="@+id/btn_27" style="@style/btn_00" android:text="@string/key_27" />
+    <Button android:id="@+id/btn_28" style="@style/btn_00" android:text="@string/key_28" />
+    <Button android:id="@+id/btn_29" style="@style/btn_00" android:text="@string/key_29" />
+    <Button android:id="@+id/btn_20" style="@style/btn_00" android:text="@string/key_20" />
+
+    <Button android:id="@+id/btn_31" style="@style/btn_00" android:text="@string/key_31" />
+    <Button android:id="@+id/btn_32" style="@style/btn_00" android:text="@string/key_32" />
+    <Button android:id="@+id/btn_33" style="@style/btn_00" android:text="@string/key_33" />
+    <Button android:id="@+id/btn_34" style="@style/btn_00" android:text="@string/key_34" />
+    <Button android:id="@+id/btn_35" style="@style/btn_00" android:text="@string/key_35" />
+    <Button android:id="@+id/btn_36" style="@style/btn_00" android:text="@string/key_36" />
+    <Button android:id="@+id/btn_37" style="@style/btn_00" android:text="@string/key_37" />
+    <Button android:id="@+id/btn_38" style="@style/btn_00" android:text="@string/key_38" />
+    <Button android:id="@+id/btn_39" style="@style/btn_00" android:text="@string/key_39" />
+    <Button android:id="@+id/btn_30" style="@style/btn_00" android:text="@string/key_30" />
+
+    <Button android:id="@+id/btn_set" style="@style/btn_00_a" android:text="@string/key_set" />
+    <Button android:id="@+id/btn_lang" style="@style/btn_00_a" android:text="@string/key_mark" />
+    <Button android:id="@+id/btn_space" style="@style/btn_00_a" android:text="@string/key_space" android:layout_columnSpan="6" />
+    <Button android:id="@+id/btn_done" style="@style/btn_00_a" android:text="@string/key_done" />
+    <Button android:id="@+id/btn_del" style="@style/btn_00_a" android:text="@string/key_del" />
+</GridLayout>

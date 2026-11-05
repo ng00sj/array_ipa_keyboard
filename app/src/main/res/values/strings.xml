@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">ArrayKeyboard</string>
+    <string name="key_01">1</string>
+    <string name="key_02">2</string>
+    <string name="key_03">3</string>
+    <string name="key_04">4</string>
+    <string name="key_05">5</string>
+    <string name="key_06">6</string>
+    <string name="key_07">7</string>
+    <string name="key_08">8</string>
+    <string name="key_09">9</string>
+    <string name="key_00">0</string>
+
+    <string name="key_11">1↑</string>
+    <string name="key_12">2↑</string>
+    <string name="key_13">3↑</string>
+    <string name="key_14">4↑</string>
+    <string name="key_15">5↑</string>
+    <string name="key_16">6↑</string>
+    <string name="key_17">7↑</string>
+    <string name="key_18">8↑</string>
+    <string name="key_19">9↑</string>
+    <string name="key_10">0↑</string>
+
+    <string name="key_21">1-</string>
+    <string name="key_22">2-</string>
+    <string name="key_23">3-</string>
+    <string name="key_24">4-</string>
+    <string name="key_25">5-</string>
+    <string name="key_26">6-</string>
+    <string name="key_27">7-</string>
+    <string name="key_28">8-</string>
+    <string name="key_29">9-</string>
+    <string name="key_20">0-</string>
+
+    <string name="key_31">↓</string>
+    <string name="key_32">↓</string>
+    <string name="key_33">↓</string>
+    <string name="key_34">↓</string>
+    <string name="key_35">↓</string>
+    <string name="key_36">↓</string>
+    <string name="key_37">↓</string>
+    <string name="key_38">↓</string>
+    <string name="key_39">↓</string>
+    <string name="key_30">↓</string>
+
+    <string name="key_done">↵</string>
+    <string name="key_del">⌫</string>
+    <string name="key_space">_</string>
+    <string name="key_next">→</string>
+    <string name="key_set">◎</string>
+    <string name="key_mark">#</string>
+
+    <string name="key_none">□</string>
+
+    <string name="val_11">q</string>
+    <string name="val_12">w</string>
+    <string name="val_13">e</string>
+    <string name="val_14">r</string>
+    <string name="val_15">t</string>
+    <string name="val_16">y</string>
+    <string name="val_17">u</string>
+    <string name="val_18">i</string>
+    <string name="val_19">o</string>
+    <string name="val_10">p</string>
+
+    <string name="val_21">a</string>
+    <string name="val_22">s</string>
+    <string name="val_23">d</string>
+    <string name="val_24">f</string>
+    <string name="val_25">g</string>
+    <string name="val_26">h</string>
+    <string name="val_27">j</string>
+    <string name="val_28">k</string>
+    <string name="val_29">l</string>
+    <string name="val_20">;</string>
+
+    <string name="val_31">z</string>
+    <string name="val_32">x</string>
+    <string name="val_33">c</string>
+    <string name="val_34">v</string>
+    <string name="val_35">b</string>
+    <string name="val_36">n</string>
+    <string name="val_37">m</string>
+    <string name="val_38">,</string>
+    <string name="val_39">.</string>
+    <string name="val_30">/</string>
+    <string name="arrayTxtFileNameBig">array30-big.txt</string>
+    <string name="noWord">□</string>
+    <string name="arrayTxtFileNameSymbol">ar30symbol.txt</string>
+
+    <string name="blankIPA">◌</string>
+    <string name="lang_0">Latin</string>
+    <string name="lang_1">行列</string>
+    <string name="lang_2">!@#</string>
+</resources>
